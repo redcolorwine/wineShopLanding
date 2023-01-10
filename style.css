@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+
+.fscreen {
+    width: 1920px;
+    height: 900px;
+    background-image: url('./media/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.ftext {
+    margin-left: 405px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    color: white;
+
+}
+
+.menu {
+    color: rgb(226, 218, 218);
+    font-size: 19px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 405px;
+    width: 1110px;
+}
+
+.menu nav {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    justify-content: space-between;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.menu nav li {
+    display: inline;
+
+}
+
+.fbuttons {
+    margin-top: 583px;
+    text-align: center;
+}
+
+.fbuttons button {
+    width: 203px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: #99862A;
+    border: none;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+/*about*/
+
+.about {
+    height: 856px;
+    width: 1920px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+}
+
+.ttext {
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 1200px;
+    padding-bottom: 60px;
+}
+
+.tabout {
+    padding-top: 100px;
+
+}
+
+.tabout h1 {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 736px;
+}
+
+.tabout p {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 733px;
+}
+
+.tabout img {
+    margin-top: 50px;
+}
+
+.bord {
+    margin: 0 auto;
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+    width: 160px;
+}
+
+/*collection*/
+.collection {
+    width: 1920px;
+    height: 1038px;
+    background-color: rgb(230, 227, 196);
+}
+
+.line {
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 1110px;
+    border-bottom: 2px solid rgb(175, 170, 170);
+}
+
+.collBlock {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+}
+
+.colAbout {
+    width: 445px;
+    text-align: justify;
+}
+
+.colAbout h1 {
+    margin-top: 30px;
+}
+
+.colAbout p {
+    font-size: 14px;
+}
+
+.colAbout table {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+.colAbout table td {
+    border-bottom: 3px solid rgb(192, 188, 188);
+    padding: 5px;
+    font-size: 14px;
+
+}
+
+.colAbout table td h4 {
+    font-size: 18px;
+}
+
+.colAbout table th {
+    border-bottom: 3px solid rgb(192, 188, 188);
+    border-right: 3px solid rgb(192, 188, 188);
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+}
+
+
+.colAbout button {
+    margin-top: 30px;
+    width: 203px;
+    height: 50px;
+    background-color: #99862A;
+    border: none;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.line2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 160px;
+    border-bottom: 2px solid rgb(175, 170, 170);
+}
+
+
+
+.imgBlock img {
+    width: 540px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.secondImg {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondImg img {
+    width: 255px;
+    height: 228px;
+}
+
+.order {
+    background-color: rgb(40, 40, 40);
+    width: 1920px;
+    height: 767px;
+    text-align: center;
+}
+
+.headingOrder {
+    display: inline-block;
+    width: 1110px;
+    height: 538px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headingImgs {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 200px;
+}
+
+.headingOrder .line2 {
+    margin: 0 auto;
+}
+
+#headImg {
+    width: 390px;
+    height: 54px;
+    align-self: flex-start;
+}
+
+.headingOrder p {
+    margin: 60px auto 60px auto;
+    color: white;
+    width: 539px;
+    height: 72px;
+}
+
+.headingOrder form {
+    margin: 0 auto;
+    width: 540px;
+}
+
+.headingOrder form input[name="name"], .headingOrder form input[name="phone"] {
+    width: 250px;
+    background-color: rgb(40, 40, 40);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.headingOrder form input[name="phone"] {
+    margin-left: 30px;
+}
+
+.headingOrder form input[name="address"] {
+    width: 540px;
+    background-color: rgb(40, 40, 40);
+    margin-top: 70px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 10px 0px 10px 0px;
+}
+
+.headingOrder form button {
+    margin-top: 30px;
+    width: 540px;
+    height: 50px;
+    background-color: rgb(40, 40, 40);
+    border: 2px solid gainsboro;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/*footer*/
+.footer {
+    width: 1920px;
+    height: 220px;
+    color: whitesmoke;
+    background-color: #998431;
+}
+
+.line3:not(:last-of-type) {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1110px;
+    border-bottom: 2px solid rgb(202, 193, 193);
+}
+
+.line3:last-of-type {
+    margin: 20px auto 0px auto;
+    width: 1110px;
+    border-bottom: 2px solid rgb(202, 193, 193);
+}
+
+.footerOne {
+    display: flex;
+    width: 800px;
+
+    margin: 20px auto 0px auto;
+}
+
+.footerOne, .footerTwo {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerOne li, .footerTwo li {
+    list-style: none;
+
+}
+.footerTwo li:not(:last-of-type){
+    border-right: 2px solid rgb(202, 193, 193);
+    padding-right: 10px;
+}
+.footerTwo {
+    display: flex;
+    margin: 20px auto 20px auto;
+    width: 800px;
+    font-weight: 900;
+}
+
+.footerTwo img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
